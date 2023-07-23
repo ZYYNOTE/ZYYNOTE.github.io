@@ -1,9 +1,6 @@
 @font-face {
-    font-family: "iconfont"; /* Project id 3386819 */
-    src: url('iconfont.woff2?t=1656687016155') format('woff2'), 
-        url('iconfont.woff?t=1656687016155') format('woff'), 
-        url('iconfont2.ttf?t=1690085424265') format('truetype'),
-    url('iconfont.ttf?t=1656687016155') format('truetype');
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1690087226422') format('truetype');
 }
 
 .iconfont {
@@ -14,29 +11,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-youxiang:before {
+  content: "\e608";
+}
+
 .icon-book:before {
-    content: "\e60d";
+  content: "\e62c";
 }
 
-.icon-mail:before {
-  content: "\e6bf";
+.icon-github:before {
+  content: "\e741";
 }
 
-.icon-github-fill:before {
-  content: "\e885";
+.icon-RSS_filled:before {
+  content: "\e704";
 }
-
-.icon-rss:before {
-  content: "\e6d0";
-}
-
-.icon-liebiao-01:before {
-  content: "\e60b";
-}
-
-.icon-quxiao-01:before {
-  content: "\e60c";
-}
-
-
 
