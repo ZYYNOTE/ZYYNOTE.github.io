@@ -2,7 +2,9 @@
   font-family: "iconfont"; /* Project id 3386819 */
   src: url('iconfont.woff2?t=1656687016155') format('woff2'),
        url('iconfont.woff?t=1656687016155') format('woff'),
+      url('iconfont.woff?t=1656687016155') format('woff3'),
        url('iconfont.ttf?t=1656687016155') format('truetype');
+
 }
 
 .iconfont {
@@ -13,8 +15,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-wechat:before {
-  content: "\e645";
+.icon-book:before {
+    content: "\e60d";
 }
 
 .icon-mail:before {
@@ -36,4 +38,6 @@
 .icon-quxiao-01:before {
   content: "\e60c";
 }
+
+
 
