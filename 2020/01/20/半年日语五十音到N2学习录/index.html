@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="utf-8">
+  
+  <title>
+    
+    半年日语从五十音到N2合格学习记录
+    
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  
+<script src="https://cdn.staticfile.org/prism/1.17.1/prism.min.js"></script>
+
+  
+<script src="https://cdn.staticfile.org/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+
+  
+<link rel="stylesheet" href="/css/prism/material-light.css">
+
+  
+<link rel="stylesheet" href="/css/prism/material-dark.css">
+
+  
+<script src="https://cdn.staticfile.org/prism/1.17.1/plugins/line-numbers/prism-line-numbers.min.js"></script>
+
+  
+<link rel="stylesheet" href="https://cdn.staticfile.org/prism/1.17.1/plugins/line-numbers/prism-line-numbers.min.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Noto+Sans+SC:wght@300&display=swap.css">
+
+  
+<link rel="stylesheet" href="/iconfont/iconfont.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+<script>
+  function setIsNight(isNight) {
+    localStorage.setItem('isNight', isNight)
+  }
+
+  function getIsNight() {
+    return localStorage.getItem('isNight')
+  }
+
+  function switchTheme() {
+    let isNight = getIsNight()
+    if (isNight === 'false') {
+      document.documentElement.className = 'dark'
+      document.getElementsByClassName('theme-switcher')[0].textContent = '😴'
+      setIsNight('true')
+    } else {
+      document.documentElement.className = 'light'
+      document.getElementsByClassName('theme-switcher')[0].textContent = '😳'
+      setIsNight('false')
+    }
+  }
+
+  let isNight = getIsNight()
+  if (isNight == null) {
+    isNight = 'false'
+    setIsNight('false')
+  }
+  if (isNight === 'false') {
+    document.documentElement.className = 'light'
+  } else {
+    document.documentElement.className = 'dark'
+  }
+</script>
+
+<body>
+  <div class="show-area">
+    <header>
+  <ul class="nav">
+    <li class="nav-child">
+      <a href="/">首页</a>
+    </li>
+	  
+	
+		  <li class="nav-child">
+      <a href="/about">关于</a>
+    </li>
+		  
+  </ul>
+  <div class="theme-switcher" onclick="switchTheme()">😳</div>
+  <script>
+    if (isNight === 'false') {
+      document.getElementsByClassName('theme-switcher')[0].textContent = '😳'
+    } else {
+      document.getElementsByClassName('theme-switcher')[0].textContent = '😴'
+    }
+  </script>
+</header>
+    <main class="main-body">
+  <div class="toc-container">
+    <div class="toc-toggle">
+      <i id="toc-b-icon" class="iconfont icon-liebiao-01" onclick="toggleShow()"></i>
+    </div>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E5%8D%81%E9%9F%B3%E4%B8%8E%E7%AE%80%E5%8D%95%E5%8F%A5"><span class="toc-number">2.</span> <span class="toc-text">五十音与简单句</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%87%8D%E8%A7%86%E6%B1%89%E5%AD%97%E7%9A%84%E8%AF%BB%E9%9F%B3"><span class="toc-number">3.</span> <span class="toc-text">重视汉字的读音</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%98%85%E8%AF%BB%E4%B8%8E%E5%90%AC%E5%8A%9B%EF%BC%8C%E6%AF%94%E8%B5%B7%E5%88%B7%E9%A2%98%EF%BC%8C%E4%BD%A0%E6%9B%B4%E9%9C%80%E8%A6%81%E5%81%9A%E8%AF%BE%E6%9C%AC%E7%BB%83%E4%B9%A0%E9%A2%98%E3%80%82"><span class="toc-number">4.</span> <span class="toc-text">阅读与听力，比起刷题，你更需要做课本练习题。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E5%8A%A8%E8%AF%8D%E5%8F%98%E5%BD%A2%EF%BC%88%E5%8B%95%E8%A9%9E%E3%81%AE%E6%B4%BB%E7%94%A8%EF%BC%89"><span class="toc-number">5.</span> <span class="toc-text">为什么会有动词变形（動詞の活用）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%93%E6%9D%9F%E8%AF%AD"><span class="toc-number">6.</span> <span class="toc-text">结束语</span></a></li></ol>
+  </div>
+  
+  <script>
+    var show = false
+    function toggleShow() {
+      if (show) {
+        document.getElementsByClassName('toc')[0].className = 'toc'
+        document.getElementById('toc-b-icon').className = 'iconfont icon-liebiao-01'
+      } else {
+        document.getElementsByClassName('toc')[0].className = 'toc show'
+        document.getElementById('toc-b-icon').className = 'iconfont icon-quxiao-01'
+      }
+      show = !show
+    }
+    document.getElementsByClassName('toc')[0].onclick = toggleShow
+  </script>
+  
+  <div class="article-header">
+    <h1 class="article-title">半年日语从五十音到N2合格学习记录</h1>
+    <div class="article-details">
+      <div class="article-post-date"><span>Posted at </span> 2020-01-20</div>
+      <div class="article-tags">
+        
+      </div>
+    </div>
+  </div>
+  <div class="article">
+  
+  <img src="../../../../IMG/IMG_JLPT01.JPG"/>
+
+<p>共参加JLPT考试两次：<br>2019&#x2F;07&#x2F;07 JLPT N4: 不合格<br>2019&#x2F;12&#x2F;01 JLPT N2：   合格</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>根据本人的实际体验，零基础半年通过日语JLPT N2考试是可行的。因为，日本出题人不整虚的，<strong>考卷上能考到的，都是在教科书上曾出现过的</strong>。换句话说，你只要把教科书上的知识点和习题过上几遍，很大概率是能考过的。<br>我使用的教科书是《<a target="_blank" rel="noopener" href="https://search.douban.com/book/subject_search?search_text=%E3%81%A7%E3%81%8D%E3%82%8B%E6%97%A5%E6%9C%AC%E8%AA%9E&cat=1001">できる日本語</a>》初级（红）、初中级（黄）和中级（蓝）。</p>
+<center style="font-size=6px"> <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../../../../IMG/IMG_JLPT03.JPG"/> <br> <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">课题内容。针对同一个主题，不同级别，有不同的用于升华。</div> </center>
+
+<h2 id="五十音与简单句"><a href="#五十音与简单句" class="headerlink" title="五十音与简单句"></a>五十音与简单句</h2><p>我学习五十音的思路是这样的：就像小狗只能汪汪叫，猫咪只能喵喵叫。人受制于其发音器官，不论说哪种语言，最基本的还是离不开aeuoe这样的元音，bpmfgk这样的辅音，然后元音和辅音拼在一起ba&#x2F;mao&#x2F;ku&#x2F;qi等等的组合音。只是不同的语言，会用不同的符号（字）去表现这些发音。<br>所以学习五十音，最重要的就是心态放松，把假名（日本的字母）看眼熟了，记得大概的发音是什么，就可以去学习基本的简单句了。<br>学习简单句的过程，也是复习和熟悉五十音的一个手段。<br>例如，</p>
+<blockquote>
+<p>１．あいしてる。<br>２．やめてください。<br>３．これもたべたいです。</p>
+</blockquote>
+<p>简单的三句话，你就掌握了17个日本字母，足足三分之一的片假名！在这里，我推荐NHK的<a target="_blank" rel="noopener" href="https://www.nhk.or.jp/lesson/zh/segment/bonusphrases/"> 简明日语 | NHK WORLD-JAPAN</a>。这里面的日常问候语，和课堂、银行、超市用语，不仅实用，还常能在综艺等作品中听到。掌握这些常用语，能大大建立你学习日语的自信心与成就感。</p>
+<h2 id="重视汉字的读音"><a href="#重视汉字的读音" class="headerlink" title="重视汉字的读音"></a>重视汉字的读音</h2><p>虽然日语里有许多汉字，与中文意思一模一样，像「会議-会议」，「電車-电车」 「禁止-禁止」，但是请不要因此在学习的时候就抱着轻视的心情偷懒，因为特别对于N2N1这种<strong>有难度</strong>的考试而言，汉字是<strong>一定</strong>会出多道考题的。以下是我学习汉字时的注意点：</p>
+<ol>
+<li><p>不要先入为主，见字识意，例如</p>
+<blockquote>
+<p>娘（むすめ）是女儿，而不是母亲。<br>手紙（てがみ）是信纸，而不是纸巾。<br>     等等…</p>
+</blockquote>
+</li>
+<li><p>刻意练习正确读音，记忆读音特别的地方，例如</p>
+<blockquote>
+<p>促音  –&gt;  結婚（け<strong>っ</strong>こん）・喫茶店（き<strong>っ</strong>さてん）…<br>长音  –&gt; 空気（く<strong>う</strong>き）・空港（く<strong>う</strong>こ<strong>う</strong>）…<br>浊音  –&gt; 手紙（て<strong>が</strong>み）・鍵（か<strong>ぎ</strong>）…<br>半浊音 –&gt; 妊婦（にん<strong>ぷ</strong>）・散歩（さんぽ）…<br>拗音 –&gt; 　電車（でんし<strong>ゃ</strong>）・醬油（し<strong>ょ</strong>うゆ）…</p>
+</blockquote>
+</li>
+<li><p>中日汉字写法是有差别的，例如</p>
+<blockquote>
+<p>中文的海，在日语里写作<a target="_blank" rel="noopener" href="https://kakijun.jp/gif-mini/09124200-m.gif">うみ</a>，中间不是两点，而是一竖。<br>中文的电，在日语里写作<a target="_blank" rel="noopener" href="https://kakijun.jp/gif-mini/13165200-m.gif">電でん</a>，下面的电是不出头的。<br>等等…
+ </p>
+</blockquote>
+</li>
+<li><p>重视日语汉字的本土音，也就是训读音。所谓汉字训读和音读，了解过韩语的朋友，应该有听说过“训民正音（教训百姓的正确而规范的标准音）”，日本汉字的训读音，也同此义，即日本本土的标准音。站在中国人的角度，这是很容易理解的，例如旧时<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1P54y1r7V3/?spm_id_from=333.788.recommend_more_video.-1&vd_source=fd0a4b340cdcecfd62b976f787fd1e6f">以广府话为母语</a>的人，对“你好”一词的发音是本土训读的“nei5 hou（雷猴）”，直到学习了中国现代汉语的标准语以后，才掌握其国语音读“ni hao”。</p>
+<center style="font-size=6px"> <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../../../../IMG/IMG_JLPT02.JPG"/> <br> <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">旧时交通不便，虽然同属中文，不同地区都各有其特色本土语言</div> </center></li>
+</ol>
+<p>回到日语汉字的学习，在汉字传入日本之前，日本人并无自己的独有的书写系统，多只停留在口头对话交流，而他们在交谈时使用的原生态发音，就是训读音。常见于动词，或植物。例如</p>
+<blockquote>
+<p>【名】 桜（さくら）・魚（さかな） ・時（とき）・金（かね）<br>【動】  食べる（たべる）・言う（いう）・整う（ととのう）<br>等等…</p>
+</blockquote>
+<p>在这里，我推荐教科书<a target="_blank" rel="noopener" href="http://www.dekirunihongo.jp/?page_id=582">《漢字たまご》</a>，里面搭配了许多日本本土生活化的学习素材与场景，相当易读与实用。<br><a target="_blank" rel="noopener" href="http://www.dekirunihongo.jp/wp-content/uploads/2017/12/gaiyou6_02.png"><img src="../../../../IMG/IMG_JLPT01.JPG"/></a><br>以上四点，是我认为日语初心者学习汉字时必须有备于胸的。在听读学习素材时，务必主动留意并摘抄记录在笔记里，作复习记忆。</p>
+<h2 id="阅读与听力，比起刷题，你更需要做课本练习题。"><a href="#阅读与听力，比起刷题，你更需要做课本练习题。" class="headerlink" title="阅读与听力，比起刷题，你更需要做课本练习题。"></a>阅读与听力，比起刷题，你更需要做课本练习题。</h2><p>教科书的音源可以在<a target="_blank" rel="noopener" href="https://portal-dlc.alc.co.jp/">ダウンロードセンター｜アルク (alc.co.jp)</a>获取，虽然素材之多，琳琅满目。但是对于想要在半年时间里<strong>通过</strong>N2的人，请不要被这种信息耗散自己的精力，谨记着只需要跟着教科书的课文来听写和朗读背诵，掌握个中单词，文法，和应用法，就完全足够了。如果需要拓展素材，我更推荐<a target="_blank" rel="noopener" href="https://search.bilibili.com/all?keyword=%E6%97%A5%E8%AF%AD++%E5%9C%BA%E6%99%AF&from_source=webtop_search&spm_id_from=333.788&search_source=5">场景日语</a>，你可以尝试角色扮演其中的人物，刺激自己对日语长句的熟悉度。</p>
+<h2 id="为什么会有动词变形（動詞の活用）"><a href="#为什么会有动词变形（動詞の活用）" class="headerlink" title="为什么会有动词变形（動詞の活用）"></a>为什么会有动词变形（動詞の活用）</h2><p>很简单，就是为了在一个句子里表达更多的信息。请看以下中文简单句：</p>
+<blockquote>
+<p>我已经吃饭了。</p>
+</blockquote>
+<p>这个句子包含的信息有：</p>
+<blockquote>
+<ol>
+<li>我（主语，主动做动作的人）</li>
+<li>已经…了（固定搭配，时态）</li>
+<li>吃（动作，动词，谓语）</li>
+<li>饭（宾语，被动作的对象）</li>
+</ol>
+</blockquote>
+<p>同样的信息，如何用日语表达呢？</p>
+<blockquote>
+<p>私は、ご饭を食べました。</p>
+</blockquote>
+<p>这个句子包含的信息有：</p>
+<blockquote>
+<ol>
+<li>私<strong>は</strong>（主语，主动做动作的人）</li>
+<li>ご饭を（宾语，被动作的对象，を后一定跟动词谓语）</li>
+<li>食べました（动作，动词，谓语，固定搭配，时态）</li>
+</ol>
+</blockquote>
+<p>由此说来，那日语和英语的动词一样，改变词尾就可以表示不同的时态信息。edーました、ingーています。那么，除了时态，还有被动，否定、状态、命令、连接等信息，这就需要不同的词尾变化来表示。<br>那么怎么变？幸运的是，日语动词变化是有绝对规则的。初心者需要了解的关于动词的内容如下：</p>
+<ul>
+<li><ol>
+<li>日语动词，它的普通形结尾一定属于<a target="_blank" rel="noopener" href="https://pic1.zhimg.com/80/v2-bc475aee4303af52acbd9c051145c974_720w.webp">う段</a>。<blockquote>
+<p>例如食べる・言う・遊ぶ・頼む・行く</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>根据动词变形规则的不同，动词分为3种类。<blockquote>
+<p> グループ1の動詞，类别一组动词<br> グループ2の動詞，类别二组动词<br> グループ3の動詞，类别三组动词</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>什么是 「グループ1の動詞」？<blockquote>
+<p>ます形时，ます的前面的字母是属于「<strong>い段（い、き、し、ち、に、び、み、り）</strong>」的动词。<br>  例如：飲<strong>み</strong>ます・取<strong>り</strong>ます・行<strong>き</strong>ます。</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>什么是 「グループ2の動詞」？<blockquote>
+<p>ます形时，ます的前面的字母是属于「<strong>え段（え、け、せ、て、ね、べ、め、れ）</strong>」的动词。<br>  例如：た<strong>べ</strong>ます・<strong>ね</strong>ます・行<strong>き</strong>ます。<br>  变化简单，只需要按变形在词尾添加形内容就可。例如：やめます・やめて・やめた・やめない・やめさせる…</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><ol start="5">
+<li>什么是 「グループ3の動詞」？<blockquote>
+<p>第三类动词就只有两个，一个是「します」，另一個则是「来ます」。<br>例如：勉強します、サッカーします。</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><ol start="6">
+<li>各种变形的意义<blockquote>
+<p>① て形(连接词，未完)<br>② た形（过去，完成）<br>③ ない形（否定）<br>④ 使役形 させる形（要求别人做，命令别人做）<br>⑤ 被動形られる形（被动，例如被老师骂了，<strong>先生に叱られました</strong>）<br>⑥ 可能形えます&#x2F;できます（可以，能够）。<em>请注意，日语汉字中的可能，意思是可以（100%），与中文的可能（也许，不确定）相反。</em></p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ul>
+<p>  请不要被变形的数量吓到，首先「て形」和「た形」的变形规则是一样，其次，除了第一组动词，其他组动词的变形不需要原形变化，直接在词尾去う段补形体就可以，容易掌握。实际上初学者在教科书上最先接触的只是「て形」，随着课本难度的增加，才会陆续学习到其他种类的变形。因此，请以一颗平和而专注的心，按照教科书的要点提示与课后习题，逐一把他们反复练习，直到掌握。<br>在这里，我推荐以下网站，</p>
+<div class="article-table"><table>
+<thead>
+<tr>
+<th></th>
+<th>网站</th>
+<th>概要</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>动词变形检索</td>
+<td><a target="_blank" rel="noopener" href="https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/category:verb/order:name">OJAD</a></td>
+<td>线上辞典，查阅动词变形集合。</td>
+</tr>
+<tr>
+<td>复合动词</td>
+<td><a target="_blank" rel="noopener" href="https://vvlexicon.ninjal.ac.jp/db/">複合動詞レキシコン</a></td>
+<td>常见复合动词的发音，例句。</td>
+</tr>
+</tbody></table></div>
+<h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>以上，是我总结的关于初心者想要半年通过日语N2考试应该了解的学习思路。当然，具体的知识点还有很多，所幸都可以在互联网上查找到相关资料。所以即便基础不多，也大可卸下“日语很难”的防备心，选择一个自己熟悉的方向开始，通过结合教科书不断的练习与复习，一定可以速度通过JLPT的考试。</p>
+
+</div>
+	  <!--<o3o key="mizore" api="https://o3o.mizore.site:2333"></o3o>-->
+   <!-- 
+<script src="/o3o/o3o.js"></script>
+-->
+    <!--
+<link rel="stylesheet" href="/css/o3o.css">
+-->
+</main>
+    <footer>
+  <div class="footer-info">© 2012-2023 Zhang Yuyan | Powerd by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> | Theme <a
+      target="_blank" rel="noopener" href="https://github.com/mizoreyo/hexo-theme-insnow">Insnow</a> </div>
+  <div class="footer-info">
+	 <a class="footer-i" target="_blank" rel="noopener" href="https://zhangs-gitbook.gitbook.io/zhang-de-yue-du-shi/"><i><span class="iconfont icon-book"></span></i></a>
+    <a class="footer-i" target="_blank" rel="noopener" href="https://github.com/zyynote"><i><span class="iconfont icon-github-fill"></span></i></a>
+    <a class="footer-i" href="/#"><i><span class="iconfont icon-rss"></span></i></a>
+    <a class="footer-i" href="mailto:zoengyuyan@outlook.com"><i><span class="iconfont icon-mail"></span></i></a>
+  </div>
+</footer>
+  </div>
+</body>
+
+
+</html>
