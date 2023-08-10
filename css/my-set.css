@@ -1,4 +1,4 @@
-.line_mySet div::after, .line_mySet div::before {
+.article > .line_mySet p::after, .article > .line_mySet p::before {
     position: absolute;
     left: 50%;
     width: 60px;
