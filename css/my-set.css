@@ -1,4 +1,4 @@
-.article > .line_mySet p::after, .article > .line_mySet p::before {
+.article > .line_mySet br::after, .article > .line_mySet br::before {
     position: absolute;
     left: 50%;
     width: 60px;
