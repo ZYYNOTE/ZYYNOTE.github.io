@@ -1,0 +1,10 @@
+.line_mySet div::after, .line_mySet div::before {
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    margin-left: -30px;
+    content: "";
+    display: block;
+    background-color: #d60c18;
+}
