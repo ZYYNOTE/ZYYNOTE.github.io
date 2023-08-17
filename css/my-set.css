@@ -1,15 +1,16 @@
-.Redline_mySet{
+.Redline_mySet {
     position: absolute;
     left: 50%;
     width: 60px;
     height: 2px;
-    margin-top: 12px;
+    margin-top: -10px;
     margin-left: -30px;
     content: "";
     display: block;
     background-color: #d60c18;
 }
 
-.Con70_mySet{
-    width:70%;
+.Con70_mySet {
+    width: 75%;
+    margin-left: 12%;
 }
