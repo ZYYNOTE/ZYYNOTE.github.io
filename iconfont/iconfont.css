@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1690088453815') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+  content: "\e609";
+}
+
+.icon-book:before {
+  content: "\e605";
+}
+
+.icon-github-fill:before {
+  content: "\e885";
+}
+
+.icon-rss:before {
+  content: "\e50c";
+}
+
