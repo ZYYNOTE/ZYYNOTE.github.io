@@ -103,19 +103,22 @@
     <div class="toc-toggle">
       <i id="toc-b-icon" class="iconfont icon-liebiao-01" onclick="toggleShow()"></i>
     </div>
-    
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E7%9A%84%E8%BF%90%E4%BD%9C%E5%8E%9F%E7%90%86%EF%BC%88%E9%80%89%E6%8B%A9%E9%A2%98%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">网络的运作原理（选择题）</span></a></li></ol>
   </div>
   
   <script>
     var show = false
     function toggleShow() {
       if (show) {
+        document.getElementsByClassName('toc')[0].className = 'toc'
         document.getElementById('toc-b-icon').className = 'iconfont icon-liebiao-01'
       } else {
+        document.getElementsByClassName('toc')[0].className = 'toc show'
         document.getElementById('toc-b-icon').className = 'iconfont icon-quxiao-01'
       }
       show = !show
     }
+    document.getElementsByClassName('toc')[0].onclick = toggleShow
   </script>
   
   <div class="article-header">
@@ -131,8 +134,20 @@
   
   <img src="https://zyy93.xyz/IMG/IMG_CCNA01.png"/>
 
-<p>教材：1. <a target="_blank" rel="noopener" href="https://book.douban.com/subject/2968802/"> CCNA学习指南（第六版） </a><br>工具：<a target="_blank" rel="noopener" href="https://www.netacad.com/portal/resources/packet-tracer"> Cisco Packet Treacer </a><br>题型：1.实验题 2.拖图题 3.选择题<br>题库：考试用语为英语，因此务必刷<a target="_blank" rel="noopener" href="https://bbs.hh010.com/thread-518406-1-1.html">题库</a>以热身熟悉。<br>拓展阅读：1. <a target="_blank" rel="noopener" href="https://book.douban.com/subject/25919428/">图解网络硬件</a> - 2.<a target="_blank" rel="noopener" href="https://www.jannet.hk/address-resolution-protocol-arp-zh-hant/">网络协议详解</a></p>
+<p>教材：1. <a target="_blank" rel="noopener" href="https://book.douban.com/subject/2968802/"> CCNA学习指南（第六版） </a>   - 2.<a target="_blank" rel="noopener" href="https://book.douban.com/subject/30594940/">Packet Tracer经典案例之路由交换入门篇</a><br>工具：<a target="_blank" rel="noopener" href="https://www.netacad.com/portal/resources/packet-tracer"> Cisco Packet Treacer </a><br>题型：1.实验题 2.拖图题 3.选择题<br>题库：考试用语为英语，因此务必刷<a target="_blank" rel="noopener" href="https://bbs.hh010.com/thread-518406-1-1.html">题库</a>以热身熟悉。<br>拓展阅读：1. <a target="_blank" rel="noopener" href="https://book.douban.com/subject/25919428/">图解网络硬件</a> - 2.<a target="_blank" rel="noopener" href="https://www.jannet.hk/address-resolution-protocol-arp-zh-hant/">网络协议详解</a></p>
 <p>我认为，CCNA想考我们三样东西：<br>其一，网络的运作原理。<br>其二，如何配置思科硬件设备，以实现网络的正常运作。<br>其三，网络故障的排查。</p>
+<h2 id="网络的运作原理（选择题）"><a href="#网络的运作原理（选择题）" class="headerlink" title="网络的运作原理（选择题）"></a>网络的运作原理（选择题）</h2><ol>
+<li><p>掌握<strong>OSI</strong>参考模型和<strong>TCP&#x2F;IP</strong>参考模型，熟知每一层的功能和对应的协议栈。如：<strong>ARP</strong>协议属于OSI参考模型的链路层（Layer2），作用是利用IP地址找出<strong>MAC</strong>地址。</p>
+</li>
+<li><p>协议的缩写和全称，如FHRP(First Hop Redundancy Protocol)。</p>
+</li>
+<li><p>冲突域和广播域的判断计算。</p>
+<blockquote>
+<p>只有路由器可以分割广播域，其他设备都属于一个广播域。<br>除了集线器，其他设备都可以分割冲突域。<br>路由器与交换机直连的线也属于一个冲突域。</p>
+</blockquote>
+</li>
+</ol>
+<p>等等……..<br>我认为选择题并不难，只要完成《CCNA学习指南》的阅读与复习，就能对网络基础原理考察的知识点有足够透彻的了解了。</p>
 
 </div>
 	  <!--<o3o key="mizore" api="https://o3o.mizore.site:2333"></o3o>-->
