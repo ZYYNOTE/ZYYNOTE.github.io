@@ -151,7 +151,7 @@
 <h2 id="设备硬件的配置（实验题）"><a href="#设备硬件的配置（实验题）" class="headerlink" title="设备硬件的配置（实验题）"></a>设备硬件的配置（实验题）</h2><ol>
 <li><p>OSPF （Open shortest Path First 开放最短路径优先）(<a target="_blank" rel="noopener" href="https://www.cisco.com/c/zh_tw/support/docs/ip/open-shortest-path-first-ospf/13699-29.html">故障排查命令官网</a>)<br> 配置OSPF的关键有：<br> 1.启用OSPF<br> 2.设定OSPF区域，所有OSPF neighbor adjacency 必须设置在同一个 OSPF Area ID 里。<br> 3.成为neighbor adjacency 的Router必须保持Interval Timer 一致，即 OSPF的hello and dead interval 不能mismatch。</p>
 <blockquote>
-<p>R1# router ospf 1<br>     network 192,168.12.0 0.0.0.255 area 10<br>     ———————————————–<br>     R2# router ospf 1<br>     network 192.168.12.0 0.0.0.255 area 10<br>     ———————————————–<br>     &#x2F;<strong>查看Neighbor Table</strong>&#x2F;<br>     R1# show ip ospf heighbor</p>
+<p>R1# router ospf 1<br>     network 192,168.12.0 0.0.0.255 area 10<br>     ———————————————–<br>     R2# router ospf 1<br>     network 192.168.12.0 0.0.0.255 area 10<br>     ———————————————–<br>     &#x2F;<strong>查看Neighbor Table</strong>&#x2F;<br>     R1# show ip ospf heighbor<br>     ———————————————–<br>     &#x2F;<strong>查看配置</strong>&#x2F;<br>     R1# show running-config</p>
 </blockquote>
 </li>
 <li><p>EIGRP （增强IGRP）</p>
