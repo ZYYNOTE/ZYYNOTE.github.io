@@ -103,7 +103,7 @@
     <div class="toc-toggle">
       <i id="toc-b-icon" class="iconfont icon-liebiao-01" onclick="toggleShow()"></i>
     </div>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E7%9A%84%E8%BF%90%E4%BD%9C%E5%8E%9F%E7%90%86%EF%BC%88%E9%80%89%E6%8B%A9%E9%A2%98%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">网络的运作原理（选择题）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E5%A4%87%E7%A1%AC%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE%EF%BC%88%E5%AE%9E%E9%AA%8C%E9%A2%98%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">设备硬件的配置（实验题）</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%83%AD%E8%BA%AB%E5%87%86%E5%A4%87"><span class="toc-number">1.</span> <span class="toc-text">热身准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Network-Fundamentals-%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="toc-number">2.</span> <span class="toc-text">Network Fundamentals (网络基础知识)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Network-Access-%EF%BC%88%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">Network Access （网络访问）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#IP-Connectivity-%EF%BC%88IP%E8%BF%9E%E6%8E%A5%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">IP Connectivity （IP连接）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Security-Fundamentals-%E5%AE%89%E5%85%A8%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="toc-number">5.</span> <span class="toc-text">Security Fundamentals (安全基础知识)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Automation-and-Porgrammability-%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E5%8F%AF%E7%BC%96%E7%A8%8B%E6%80%A7"><span class="toc-number">6.</span> <span class="toc-text">Automation and Porgrammability (自动化和可编程性)</span></a></li></ol>
   </div>
   
   <script>
@@ -134,36 +134,11 @@
   
   <img src="https://zyynote.github.io/IMG/IMG_CCNA01.png"/>
 
-<p>教材：1. <a target="_blank" rel="noopener" href="https://book.douban.com/subject/2968802/"> CCNA学习指南（第六版） </a>   - 2.<a target="_blank" rel="noopener" href="https://book.douban.com/subject/30594940/">Packet Tracer经典案例之路由交换入门篇</a><br>工具：<a target="_blank" rel="noopener" href="https://www.netacad.com/portal/resources/packet-tracer"> Cisco Packet Treacer </a><br>题型：1.实验题 2.拖图题 3.选择题<br>题库：考试用语为英语，因此务必刷<a target="_blank" rel="noopener" href="https://bbs.hh010.com/thread-518406-1-1.html">题库</a>以热身熟悉。<br>拓展阅读：1. <a target="_blank" rel="noopener" href="https://book.douban.com/subject/25919428/">图解网络硬件</a> - 2.<a target="_blank" rel="noopener" href="https://www.jannet.hk/address-resolution-protocol-arp-zh-hant/">网络协议详解</a></p>
-<p>我认为，CCNA想考我们三样东西：<br>其一，网络的运作原理。<br>其二，如何配置思科硬件设备，以实现网络的正常运作。<br>其三，网络故障的排查。</p>
-<h2 id="网络的运作原理（选择题）"><a href="#网络的运作原理（选择题）" class="headerlink" title="网络的运作原理（选择题）"></a>网络的运作原理（选择题）</h2><ol>
-<li><p>掌握<strong>OSI</strong>参考模型和<strong>TCP&#x2F;IP</strong>参考模型，熟知每一层的功能和对应的协议栈。如：<strong>ARP</strong>协议属于OSI参考模型的链路层（Layer2），作用是利用IP地址找出<strong>MAC</strong>地址。</p>
-</li>
-<li><p>协议的缩写和全称，如FHRP(First Hop Redundancy Protocol)。</p>
-</li>
-<li><p>冲突域和广播域的判断计算。</p>
-<blockquote>
-<p>只有路由器可以分割广播域，其他设备都属于一个广播域。<br>除了集线器，其他设备都可以分割冲突域。<br>路由器与交换机直连的线也属于一个冲突域。</p>
-</blockquote>
-</li>
-</ol>
-<p>等等……..<br>我认为选择题并不难，只要完成《CCNA学习指南》的阅读与复习，就能对网络基础原理考察的知识点有足够透彻的了解了。</p>
-<h2 id="设备硬件的配置（实验题）"><a href="#设备硬件的配置（实验题）" class="headerlink" title="设备硬件的配置（实验题）"></a>设备硬件的配置（实验题）</h2><ol>
-<li><p>OSPF （Open shortest Path First 开放最短路径优先）(<a target="_blank" rel="noopener" href="https://www.cisco.com/c/zh_tw/support/docs/ip/open-shortest-path-first-ospf/13699-29.html">故障排查命令官网</a>)<br> 配置OSPF的关键有：<br> 1.启用OSPF<br> 2.设定OSPF区域，所有OSPF neighbor adjacency 必须设置在同一个 OSPF Area ID 里。<br> 3.成为neighbor adjacency 的Router必须保持Interval Timer 一致，即 OSPF的hello and dead interval 不能mismatch。</p>
-<blockquote>
-<p>R1# router ospf 1<br>     network 192,168.12.0 0.0.0.255 area 10<br>     ———————————————–<br>     R2# router ospf 1<br>     network 192.168.12.0 0.0.0.255 area 10<br>     ———————————————–<br>     &#x2F;<strong>查看Neighbor Table</strong>&#x2F;<br>     R1# show ip ospf heighbor<br>     ———————————————–<br>     &#x2F;<strong>查看配置</strong>&#x2F;<br>     R1# show running-config</p>
-</blockquote>
-</li>
-<li><p>EIGRP （增强IGRP）</p>
-</li>
-<li><p>DHCP （动态主机配置协议）</p>
-</li>
-<li><p>ACL-3 （访问控制列表）</p>
-</li>
-<li><p>RIPv2 （路由选择协议）</p>
-</li>
-</ol>
 
+<h2 id="热身准备"><a href="#热身准备" class="headerlink" title="热身准备"></a>热身准备</h2><p>教材：1. <a target="_blank" rel="noopener" href="https://book.douban.com/subject/2968802/"> CCNA学习指南（第六版） </a>   - 2.<a target="_blank" rel="noopener" href="https://book.douban.com/subject/30594940/">Packet Tracer经典案例之路由交换入门篇</a><br>工具：<a target="_blank" rel="noopener" href="https://www.netacad.com/portal/resources/packet-tracer"> Cisco Packet Treacer </a><br>题型：1.实验题 2.拖图题 3.选择题<br>题库：考试用语为英语，因此务必刷<a target="_blank" rel="noopener" href="https://bbs.hh010.com/thread-518406-1-1.html">题库</a>以热身熟悉。</p>
+<p>根据思科官方网站的信息所示，CCNA考试范围如下图：<br><img src="https://www.pmp360.net/ccna_ccnp_exams_200_301.e59a2c59.webp"/></p>
+<p>我认为，CCNA想考我们三样东西：<br>其一，网络的运作原理。<br>其二，如何配置思科硬件设备（搭建与命令），以实现网络的正常运作。<br>其三，网络故障的排查。</p>
+<h2 id="Network-Fundamentals-网络基础知识"><a href="#Network-Fundamentals-网络基础知识" class="headerlink" title="Network Fundamentals (网络基础知识)"></a>Network Fundamentals (网络基础知识)</h2><h2 id="Network-Access-（网络访问）"><a href="#Network-Access-（网络访问）" class="headerlink" title="Network Access （网络访问）"></a>Network Access （网络访问）</h2><h2 id="IP-Connectivity-（IP连接）"><a href="#IP-Connectivity-（IP连接）" class="headerlink" title="IP Connectivity （IP连接）"></a>IP Connectivity （IP连接）</h2><h2 id="Security-Fundamentals-安全基础知识"><a href="#Security-Fundamentals-安全基础知识" class="headerlink" title="Security Fundamentals (安全基础知识)"></a>Security Fundamentals (安全基础知识)</h2><h2 id="Automation-and-Porgrammability-自动化和可编程性"><a href="#Automation-and-Porgrammability-自动化和可编程性" class="headerlink" title="Automation and Porgrammability (自动化和可编程性)"></a>Automation and Porgrammability (自动化和可编程性)</h2>
 </div>
 	  <!--<o3o key="mizore" api="https://o3o.mizore.site:2333"></o3o>-->
    <!-- 
