@@ -103,19 +103,22 @@
     <div class="toc-toggle">
       <i id="toc-b-icon" class="iconfont icon-liebiao-01" onclick="toggleShow()"></i>
     </div>
-    
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%B8%E5%90%8E%E8%AF%AD"><span class="toc-number">1.</span> <span class="toc-text">游后语</span></a></li></ol>
   </div>
   
   <script>
     var show = false
     function toggleShow() {
       if (show) {
+        document.getElementsByClassName('toc')[0].className = 'toc'
         document.getElementById('toc-b-icon').className = 'iconfont icon-liebiao-01'
       } else {
+        document.getElementsByClassName('toc')[0].className = 'toc show'
         document.getElementById('toc-b-icon').className = 'iconfont icon-quxiao-01'
       }
       show = !show
     }
+    document.getElementsByClassName('toc')[0].onclick = toggleShow
   </script>
   
   <div class="article-header">
@@ -160,7 +163,7 @@
 <p>等了好一阵子，烟煴蒸腾的白汤和滋滋作响的砂煲终于齐齐上桌了。还没来得及待我细看看其形色，生啫煲的香气就已扑鼻而来。所谓「啫」如「炒焗炆煎煮炸」是粤菜的一种烹饪法，属煲仔菜系。</p>
 <p>我夹起一根菜心往嘴里送去，首先品尝到的是覆盖在菜身的料头和虾酱的惹味香气。几番咀嚼过后，吃到的是蔬菜清新嫩滑的口感，味浓但清新，极富层次。可见做这道菜的厨师之手艺，是相当经得起考究的。这第一口如定海神针，让我放开心怀大快朵颐，直到所有菜肴都吃完了，才心满意足地放下筷子。</p>
 <p>稍作歇息，我拿起小票去前台结账，盛惠103元，实整收100元。完美！从店门口出来一路向东，便是「江门城央绿廊碧道」。骑着小蓝车在绿道上转圈消食，心里不由想到：有宜人风景养眼，又有可口美食养胃，江门人可真幸福啊~</p>
-<center style="font-size=6px"> <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../../../../IMG/IMG_JM009.jpg"/> <br> <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">江门城央绿廊碧道上的I ♥ JIANGMEN。</div> </center>
+<center style="font-size=6px"> <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../../../../IMG/IMG_JM009.jpg"/> <br> <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">江门城央绿廊碧道上的 I ♥ JIANGMEN。</div> </center>
 
 <p>转着转着，忽然被一家招牌老派的咖啡厅吸引了目光，「江门首家」？好大的口气！毕竟作为中国侨都，早在19世纪60年代，海外华侨华人就已经将咖啡文化带到了这里。时至今天，这个城市也早已成为内地最大的咖啡豆烘培生产基地之一。在好奇心驱使下，我那刚歇息的食欲被再次「激活」，等回过神来，双脚已经走进店里。「手冲冷萃」、「瑰夏花魁」、「拼配特调」……作了几番思想挣扎，我下单埃塞俄比亚日晒瑰夏冰滴咖啡，外带拿走。</p>
 <center style="font-size=6px"> <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../../../../IMG/IMG_JM010.jpg"/> <br> <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">位于江门竹排街的啡城西餐厅。</div> </center>
@@ -171,12 +174,11 @@
 
 <center style="font-size=6px"> <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../../../../IMG/IMG_JM012.jpg"/> <br> <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">在教室内构思这篇博文。</div> </center>
 
-<p>###游后语</p>
-<blockquote>
+<h3 id="游后语"><a href="#游后语" class="headerlink" title="游后语"></a>游后语</h3><blockquote>
 <p>人生如梦。生命从无到有，又从有到无，生生死死，构成社会和世界。从人生无常这一点来说，人生有梦幻。因此，一个人只有活得有声有色、有滋有味、才不枉到这世界上走一回。</p>
 <p>—— 史铁生</p>
 </blockquote>
-<p>久违地漫步在校园里，让我重新感受到青春期时生动又强烈的「征服」感，那时候的我总是理所当然地憧憬明天。光阴匆匆，转眼来到而立之年，现在的我依然期待明天，但相较花信之年，我已深刻领悟明日虽会复明日，但明日不一定会再来。这份后知后觉使我对「当下」格外珍惜，不是「今天」，而是「此时、此刻」。因为我知道，当下的这一分这一秒，就如同我那逝去的青春，在我的一生中仅有一次，不会重来。</p>
+<p>久违地漫步在校园里，我重新感受到青春期时生动又强烈的「征服」感，那时候的我总是理所当然地憧憬明天。光阴匆匆，转眼来到而立之年，现在的我依然期待明天，但相较花信之年，我已深刻领悟明日虽会复明日，但明日不一定会再来。这份后知后觉使我对「当下」格外珍惜，不是「今天」，而是「此时、此刻」。毕竟，眼下的这一分这一秒，就如同我那逝去的青春，在我的一生中仅有一次，不会重来。</p>
 <center style="font-size=6px"> <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../../../../IMG/IMG_JM013.jpg"/> <br> <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">母校磐基永固，学子青春常驻。</div> </center>
 
 
