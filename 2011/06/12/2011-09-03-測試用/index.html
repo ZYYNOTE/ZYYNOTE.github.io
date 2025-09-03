@@ -112,19 +112,22 @@
     <div class="toc-toggle">
       <i id="toc-b-icon" class="iconfont icon-liebiao-01" onclick="toggleShow()"></i>
     </div>
-    
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">Hello, {props.name}</span></a></li></ol>
   </div>
   
   <script>
     var show = false
     function toggleShow() {
       if (show) {
+        document.getElementsByClassName('toc')[0].className = 'toc'
         document.getElementById('toc-b-icon').className = 'iconfont icon-liebiao-01'
       } else {
+        document.getElementsByClassName('toc')[0].className = 'toc show'
         document.getElementById('toc-b-icon').className = 'iconfont icon-quxiao-01'
       }
       show = !show
     }
+    document.getElementsByClassName('toc')[0].onclick = toggleShow
   </script>
   
   <div class="article-header">
@@ -138,9 +141,7 @@
   </div>
   <div class="article">
   
-  <figure class="highlight js"><div class="article-table"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">HighlightSomeText</span>(<span class="params">highlight</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (highlight) &#123;</span><br><span class="line">    <span class="comment">// highlight-next-line</span></span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;This text is highlighted!&#x27;</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="string">&#x27;Nothing highlighted&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">HighlightMoreText</span>(<span class="params">highlight</span>) &#123;</span><br><span class="line">  <span class="comment">// highlight-start</span></span><br><span class="line">  <span class="keyword">if</span> (highlight) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;This range is highlighted!&#x27;</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">// highlight-end</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="string">&#x27;Nothing highlighted&#x27;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></div></figure>
-
-<pre><code class="language-html">
+  <pre><code class="language-html">
 
 function HighlightSomeText(highlight) &#123;
   if (highlight) &#123;
@@ -165,13 +166,16 @@ function HighlightMoreText(highlight) &#123;
 
 <pre><code class="language-JavaScript">
 
-<figure class="highlight javascript"><figcaption><span>title</span></figcaption><div class="article-table"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">HelloCodeTitle</span>(<span class="params">props</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="language-xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, &#123;props.name&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></div></figure>
+  title="/src/components/HelloCodeTitle.js"
+
+function HelloCodeTitle(props) &#123;
+  return <h1>Hello, &#123;props.name&#125;</h1>;
+&#125;
+
+
 </code></pre>
 
-<pre><code>
 
-<figure class="highlight javascript"><figcaption><span>title</span></figcaption><div class="article-table"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">HelloCodeTitle</span>(<span class="params">props</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="language-xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, &#123;props.name&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></div></figure>
-</code></pre>
 
 </div>
 	  <!--<o3o key="mizore" api="https://o3o.mizore.site:2333"></o3o>-->
