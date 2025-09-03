@@ -11,10 +11,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/github.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+
     
-    
-<script src="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/lib/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
 
     
 <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/lib/languages/python.min.js"></script>
@@ -141,6 +141,28 @@
   <figure class="highlight javascript"><figcaption><span>title</span></figcaption><div class="article-table"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">HelloCodeTitle</span>(<span class="params">props</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="language-xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, &#123;props.name&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></div></figure>
 
 <figure class="highlight js"><div class="article-table"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">HighlightSomeText</span>(<span class="params">highlight</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (highlight) &#123;</span><br><span class="line">    <span class="comment">// highlight-next-line</span></span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;This text is highlighted!&#x27;</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="string">&#x27;Nothing highlighted&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">HighlightMoreText</span>(<span class="params">highlight</span>) &#123;</span><br><span class="line">  <span class="comment">// highlight-start</span></span><br><span class="line">  <span class="keyword">if</span> (highlight) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;This range is highlighted!&#x27;</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">// highlight-end</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="string">&#x27;Nothing highlighted&#x27;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></div></figure>
+
+<pre><code class="language-html">
+
+function HighlightSomeText(highlight) &#123;
+  if (highlight) &#123;
+    // highlight-next-line
+    return 'This text is highlighted!';
+  &#125;
+
+  return 'Nothing highlighted';
+&#125;
+
+function HighlightMoreText(highlight) &#123;
+  // highlight-start
+  if (highlight) &#123;
+    return 'This range is highlighted!';
+  &#125;
+  // highlight-end
+
+  return 'Nothing highlighted';
+&#125;
+</code></pre>
 
 
 </div>
